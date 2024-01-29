@@ -1,6 +1,7 @@
 import React from 'react'
 
 function SearchBar({searchMovie, setSearchMovie,fetchMovieData}) {
+  console.log(searchMovie)
   return (
     <div className='flex justify-center py-3'>
      <input type="text" placeholder='Search Here' 
